@@ -12,7 +12,7 @@ const Client = () => {
       <Container>
         <div>
           <div className="text-center">
-            <h2 className="text-[36px] text-[#4D4D4D] font-semibold">Our Clients</h2>
+            <h2 className="md:text-[36px] text-[25px] text-[#4D4D4D] font-semibold">Our Clients</h2>
             <p className="text-[#717171]">We have been working with some Fortune 500+ clients</p>
           </div>
 

@@ -8,23 +8,23 @@ const Helping = () => {
   return (
     <div className="bg-[#F5F7FA]">
       <Container>
-        <div className="py-[64px] flex justify-between items-center">
+        <div className="py-[64px] md:flex md:justify-between md:items-center">
 
-          <div>
-            <h2 className="text-[36px] font-semibold w-[480px]">Helping a local </h2>
-              <span className="text-[#4CAF4F] text-[36px] font-semibold w-[480px]">business reinvent itself</span>
+          <div className="text-center md:text-left">
+            <h2 className="md:text-[36px] text-[25px]  font-semibold md:w-[480px]">Helping a local </h2>
+              <span className="text-[#4CAF4F] md:text-[36px] text-[25px]  font-semibold md:w-[480px]">business reinvent itself</span>
             <p className="text-[16px] text-[#18191F]">We reached here with our hard work and dedication</p>
           </div>
 
-       <div>
+       <div className="mt-4">
           <div className="flex gap-[50px]">
            <div className="flex items-center gap-[16px]">
             <div>
               <img src={Icon} alt="" />
             </div>
             <div>
-              <h2 className="text-[28px] font-bold text-[#4D4D4D]">2,245,341</h2>
-              <p className="text-[#717171] text-[16px] font-normal font-inter">Members</p>
+              <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">2,245,341</h2>
+              <p className="text-[#717171] text-[13px] md:text-[16px] font-normal font-inter">Members</p>
             </div>
           </div>
 
@@ -33,8 +33,8 @@ const Helping = () => {
               <img src={IconOne} alt="" />
             </div>
             <div>
-              <h2 className="text-[28px] font-bold text-[#4D4D4D]">828,867</h2>
-              <p className="text-[#717171] text-[16px] font-normal font-inter">Event Bookings</p>
+              <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">828,867</h2>
+              <p className="text-[#717171] text-[13px] md:text-[16px] font-normal font-inter">Event Bookings</p>
             </div>
           </div>
          </div>
@@ -46,8 +46,8 @@ const Helping = () => {
               <img src={IconTwo} alt="" />
             </div>
             <div>
-              <h2 className="text-[28px] font-bold text-[#4D4D4D]">2,245,341</h2>
-              <p className="text-[#717171] text-[16px] font-normal font-inter">Members</p>
+              <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">2,245,341</h2>
+              <p className="text-[#717171] text-[13px] md:text-[16px] font-normal font-inter">Members</p>
             </div>
           </div>
 
@@ -56,8 +56,8 @@ const Helping = () => {
               <img src={IconThree} alt="" />
             </div>
             <div>
-              <h2 className="text-[28px] font-bold text-[#4D4D4D]">828,867</h2>
-              <p className="text-[#717171] text-[16px] font-normal font-inter">Event Bookings</p>
+              <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">828,867</h2>
+              <p className="text-[#717171] text-[13px] md:text-[16px] font-normal font-inter">Event Bookings</p>
             </div>
           </div>
          </div>
