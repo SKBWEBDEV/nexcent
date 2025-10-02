@@ -8,8 +8,8 @@ const Design = () => {
       <Container>
         <div className='font-inter md:flex md:items-center md:justify-between'>
           <div>
-            <img src={Pana} alt="" />
-          </div>
+            <img className='w-fit' src={Pana} alt="" />
+          </div> 
           <div>
             <h2 className='text-[#4D4D4D] md:text-[36px] text-[25px] mt-5 text-center w-fit font-semibold md:w-[601px]'>
               How to design your site footer like we did</h2>

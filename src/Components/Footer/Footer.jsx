@@ -55,11 +55,12 @@ const Footer = () => {
       
       <div className="relative md:w-full">
         <input
-          className="bg-[#515B60] w-fit py-2 px-7 pl-3 rounded-md text-white placeholder-gray-300 focus:outline-none"
+          className="bg-[#515B60] w-fit py-2 px-10 pl-3 rounded-md text-white placeholder-gray-300 
+          focus:outline-none"
           type="text"
           placeholder="Your email address"
         />
-        <SiMinutemailer className="absolute left-50 md:right-3 top-1/2 -translate-y-1/2 text-gray-300 text-lg" />
+        <SiMinutemailer className="absolute left-40 md:right-3 top-3 md:top-1/2 md:-translate-y-1/2 text-gray-300 text-lg" />
       </div>
     </div>
 

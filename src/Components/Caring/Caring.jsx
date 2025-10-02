@@ -18,7 +18,7 @@ const Caring = () => {
 
           <div className="relative">
             <img src={Cheina} alt="" />
-            <div className="text-center rounded-md absolute top-[190px] left-[25px] px-[16px] py-[16px] bg-[#F5F7FA] shadow-lg 
+            <div className="text-center rounded-md absolute top-[190px] left-[25px] px-[5px] md:px-[16px] py-[16px] bg-[#F5F7FA] shadow-lg 
             shadow-[#ABBED1]/40 w-fit">
               <p className="text-[#717171] text-[20px] w-[285px]">Creating Streamlined Safeguarding Processes with OneRen</p>
               <div className="flex gap-2 justify-center items-center text-[16px] font-normal text-[#4CAF4F]">
@@ -31,7 +31,7 @@ const Caring = () => {
 
           <div className="relative mt-20 md:mt-0">
             <img src={Laptop} alt="" />
-            <div className="text-center rounded-md absolute top-[190px] left-[25px] px-[16px] py-[16px] bg-[#F5F7FA] shadow-lg 
+            <div className="text-center rounded-md absolute top-[190px] left-[25px] px-[5px] md:px-[16px] py-[16px] bg-[#F5F7FA] shadow-lg 
             shadow-[#ABBED1]/40 w-fit">
               <p className="text-[#717171] text-[20px] w-[285px]">What are your safeguarding responsibilities and how can you manage them?</p>
               <div className="flex gap-2 justify-center items-center text-[16px] font-normal text-[#4CAF4F]">
@@ -44,7 +44,7 @@ const Caring = () => {
 
           <div className="relative mt-20 md:mt-0">
             <img src={Laptopone} alt="" />
-            <div className="text-center rounded-md absolute top-[190px] left-[30px] px-[30px] py-[16px] bg-[#F5F7FA] shadow-lg 
+            <div className="text-center rounded-md absolute top-[190px] left-[45px] px-[5px] md:px-[30px] py-[16px] bg-[#F5F7FA] shadow-lg 
             shadow-[#ABBED1]/40 w-fit">
               <p className="text-[#717171] text-[20px] w-[250px]">Revamping the Membership Model with Triathlon Australia</p>
               <div className="flex gap-2 justify-center items-center text-[16px] font-normal text-[#4CAF4F]">

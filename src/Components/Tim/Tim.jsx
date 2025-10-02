@@ -25,7 +25,7 @@ const Tim = () => {
             <p className='text-[#89939E] text-[16px] font-normal text-center'>British Dragon Boat Racing Association</p>
 
             <div className='md:flex md:items-center md:justify-between mt-[32px]'>
-              <div className='flex md:gap-[41px] gap-3'>
+              <div className='flex md:gap-[41px] gap-2'>
                 <img src={Blue} alt="" />
                 <img src={Two} alt="" />
                 <img src={Three} alt="" />

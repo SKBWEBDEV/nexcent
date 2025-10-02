@@ -7,7 +7,7 @@ const Unseen = () => {
       <Container>
         <div className="md:flex md:justify-between md:items-center">
           <div>
-            <img src={Frame} alt="" />
+            <img className="w-fit" src={Frame} alt="" />
           </div>
           <div>
             <h2 className="text-[#4D4D4D] md:w-[601px] font-semibold md:text-[36px] text-[25px] text-center">The unseen of spending three years at Pixelgrade</h2>
