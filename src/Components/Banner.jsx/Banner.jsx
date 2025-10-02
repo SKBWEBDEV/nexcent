@@ -18,8 +18,8 @@ const Banner = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: true,
           dots: true
         }
@@ -27,8 +27,8 @@ const Banner = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           
         }
       },
@@ -43,7 +43,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="bg-[#F5F7FA] py-[96px] font-inter">
+    <div className="bg-[#F5F7FA] py-15 md:py-[96px] font-inter">
       <Container>
         
 

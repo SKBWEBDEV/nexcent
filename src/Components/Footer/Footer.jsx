@@ -60,7 +60,7 @@ const Footer = () => {
           type="text"
           placeholder="Your email address"
         />
-        <SiMinutemailer className="absolute md:left-50 left-40 md:right-3 top-3 md:top-1/2 md:-translate-y-1/2 text-gray-300 text-lg" />
+        <SiMinutemailer className="absolute md:left-50 left-45 md:right-3 top-3 md:top-1/2 md:-translate-y-1/2 text-gray-300 text-lg" />
       </div>
     </div>
 
