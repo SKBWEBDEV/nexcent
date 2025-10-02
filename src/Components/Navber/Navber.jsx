@@ -25,7 +25,7 @@ const Navber = () => {
               <li>FAQ</li>
             </ul>
           </div>
-          <div className="flex itmes-center gap-[14px]">
+          <div className="flex items-center gap-[14px]">
             <button className="border border-transparent text-[#4CAF4F] text-[14px] hover:border-[#4CAF4F] py-[10px] 
             px-[20px] rounded-xl "><a href="">Login</a></button>
             <button className="bg-[#4CAF4F] py-[10px] px-[20px] rounded-xl text-white text-[14px]"><a href="">Sign up</a></button>

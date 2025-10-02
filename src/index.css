@@ -7,3 +7,6 @@
   --font-inter: 'Inter', sans-serif; 
 }
 
+.slider-container{
+  overflow: hidden;
+}

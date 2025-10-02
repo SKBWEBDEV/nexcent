@@ -18,8 +18,8 @@ const Banner = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -27,9 +27,9 @@ const Banner = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          
         }
       },
       {
@@ -47,7 +47,7 @@ const Banner = () => {
       <Container>
         
 
-
+      <div className="slider-container">
         <Slider {...settings}>
       <div>
         <div className="flex items-center justify-between">
@@ -103,7 +103,7 @@ const Banner = () => {
       </div>
       
     </Slider>
-
+    </div>
 
 
 
