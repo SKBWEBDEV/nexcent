@@ -16,11 +16,11 @@ const Helping = () => {
             <p className="text-[16px] text-[#18191F]">We reached here with our hard work and dedication</p>
           </div>
 
-       <div className="mt-4">
+       <div className="mt-4 ml-2">
           <div className="flex gap-[50px]">
            <div className="flex items-center gap-[16px]">
             <div>
-              <img src={Icon} alt="" />
+              <img  className="size-6 animate-bounce" src={Icon} alt="icon" />
             </div>
             <div>
               <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">2,245,341</h2>
@@ -30,7 +30,7 @@ const Helping = () => {
 
            <div className="flex items-center gap-[16px]">
             <div>
-              <img src={IconOne} alt="" />
+              <img  className="size-6 animate-bounce" src={IconOne} alt="" />
             </div>
             <div>
               <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">828,867</h2>
@@ -43,7 +43,7 @@ const Helping = () => {
         <div className="flex gap-[50px] mt-[40px]">
            <div className="flex items-center gap-[16px]">
             <div>
-              <img src={IconTwo} alt="" />
+              <img  className="size-6 animate-bounce" src={IconTwo} alt="" />
             </div>
             <div>
               <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">2,245,341</h2>
@@ -53,7 +53,7 @@ const Helping = () => {
 
            <div className="flex items-center gap-[16px]">
             <div>
-              <img src={IconThree} alt="" />
+              <img  className="size-6 animate-bounce" src={IconThree} alt="" />
             </div>
             <div>
               <h2 className="md:text-[28px] font-bold text-[#4D4D4D]">828,867</h2>

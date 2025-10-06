@@ -16,7 +16,7 @@ const Client = () => {
             <p className="text-[#717171]">We have been working with some Fortune 500+ clients</p>
           </div>
 
-          <div className="flex md:justify-between gap-2 mt-[40px]">
+          <div className="flex md:justify-between gap-1 mt-[40px]">
             <img src={One} alt="" />
             <img src={Two} alt="" />
             <img src={Three} alt="" />

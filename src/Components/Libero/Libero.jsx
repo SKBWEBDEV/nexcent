@@ -7,7 +7,7 @@ const Libero = () => {
       <Container>
         <div className='py-[30px] text-center '>
           <h2 className='text-[#263238] mx-auto font-semibold font-inter text-[25px] md:text-[64px] md:w-[887px]'>Pellentesque suscipit fringilla libero eu.</h2>
-          <button className="bg-[#4CAF4F] flex items-center gap-2 mx-auto mt-5 md:mt-[32px] py-[10px] px-[20px] rounded-md text-white text-[14px]"><a href="">Get a Demo </a> <span><FaArrowRight /></span></button>
+          <button className="bg-[#4CAF4F]  flex items-center gap-2 mx-auto mt-5 md:mt-[32px] py-[10px] px-[20px] rounded-md text-white text-[14px]"><a href="">Get a Demo </a> <span><FaArrowRight /></span></button>
         </div>
       </Container>
     </div>

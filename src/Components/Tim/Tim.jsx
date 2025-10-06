@@ -16,7 +16,7 @@ const Tim = () => {
       <Container>
         <div className='font-inter md:flex items-center py-[32px] md:justify-between'>
           <div>
-            <img src={Image} alt="" />
+            <img className='animate-pulse' src={Image} alt="image" />
           </div>
           <div>
             
@@ -25,7 +25,7 @@ const Tim = () => {
             <p className='text-[#89939E] text-[16px] font-normal text-center'>British Dragon Boat Racing Association</p>
 
             <div className='md:flex md:items-center md:justify-between mt-[32px]'>
-              <div className='flex md:gap-[41px] gap-2'>
+              <div className='flex md:gap-[41px] gap-1'>
                 <img src={Blue} alt="" />
                 <img src={Two} alt="" />
                 <img src={Three} alt="" />
